@@ -1,5 +1,8 @@
+node_modules
+dist
 .tmp
 .DS_Store
 .idea
-
 config.js
+.sass-cache
+bower_components
