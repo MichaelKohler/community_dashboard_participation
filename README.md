@@ -20,4 +20,4 @@ To get started, you will need a mozillians.org API key though. You can get it ea
 * At the bottom you see "Developer"
 * Click on "Manage API keys"
 * Register a new app
-* Add the resulting API key to the `config.json` file in the root directory of this project.
+* Add the resulting API key to the `config.js` file in the root directory of this project.
