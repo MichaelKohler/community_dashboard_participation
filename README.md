@@ -21,3 +21,22 @@ To get started, you will need a mozillians.org API key though. You can get it ea
 * Click on "Manage API keys"
 * Register a new app
 * Add the resulting API key to the `config.js` file in the root directory of this project.
+
+### Setting up the project on your local environment
+
+1. Install [Node](http://nodejs.org)
+
+2. Inside the project folder run the following command to install the Grunt and Bower CLIs
+
+        sudo npm install -g grunt-cli bower
+
+3. Finally, install the project dependencies and libraries with the following commands:
+
+        npm install
+        bower install
+
+### Running the project locally in development mode
+
+To run the server in development mode, simply type:
+
+    grunt serve
