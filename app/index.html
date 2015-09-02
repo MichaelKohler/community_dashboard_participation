@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
-  <body ng-app="cpdApp">
+  <body ng-app="moz.cpd.mocks">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -152,13 +152,15 @@
     <script src="bower_components/angular-touch/angular-touch.js"></script>
     <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
     <script src="bower_components/material-design-lite/material.min.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
         <!-- endbuild -->
+
+        <script src="scripts/mocks/mocks.js"></script>
 </body>
 </html>
