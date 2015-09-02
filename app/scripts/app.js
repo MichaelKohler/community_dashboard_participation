@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name cpdApp
+ * @name moz.cpd
  * @description
- * # cpdApp
+ * # moz.cpd
  *
  * Main module of the application.
  */
 angular
-  .module('cpdApp', [
+  .module('moz.cpd', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -26,4 +26,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .value('cpdRoutes', {
+      countries: '/api/countries'
   });
