@@ -1,7 +1,11 @@
 {
   "name": "cpd",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^2.0.42"
+  },
   "repository": {},
   "devDependencies": {
     "grunt": "^0.4.5",
