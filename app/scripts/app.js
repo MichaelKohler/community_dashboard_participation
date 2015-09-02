@@ -26,4 +26,7 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .value('cpdRoutes', {
+      countries: '/api/countries'
   });
