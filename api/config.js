@@ -1,6 +1,7 @@
 'use strict';
 
 exports.config = {
+  endpoint: 'https://mozillians.org/api/v2/',
   countries: [{
     name: "Germany",
     countryCode: "de"
@@ -21,9 +22,9 @@ exports.config = {
     countryCode: "ph"
   }, {
     name: "United Kingdom",
-    countryCode: "uk"
+    countryCode: "gb"
   }, {
-    name: "USA",
+    name: "United States",
     countryCode: "us"
   }, {
     name: "Mexico",

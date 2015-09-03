@@ -40,7 +40,7 @@ For the import, you will need a mozillians.org API key though. You can get it ea
 
 For now, we will pass in the API key you created by hand, to make sure that this will never be checked into this repository.
 
-    node api/import.js -key YOURKEY
+    node api/import.js YOURKEY
 
 ### Running the project locally in development mode
 
